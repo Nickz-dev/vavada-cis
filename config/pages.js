@@ -1023,7 +1023,7 @@ module.exports = {
       title: "Рабочее зеркало VAVADA Casino на 2025 год | Актуальные входы без блокировок",
       description:
         "Актуальные зеркала VAVADA Casino 2025 ➤ Рабочие ссылки для обхода блокировок ★ Мгновенный доступ к играм и бонусам ★ Без VPN и прокси",
-      dataLink: "https://vavada-c-wn.ru",
+      dataLink: "https://vavada.c-wn.ru",
       keywords:
         "зеркало VAVADA 2025, рабочий вход Вавада, актуальное зеркало казино VAVADA, обход блокировки VAVADA, альтернативный доступ VAVADA",
       canonical: "https://vavada-cis.com/mirrors",
