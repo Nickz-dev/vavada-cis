@@ -415,117 +415,187 @@ module.exports = {
         </div>
     </section>
 
-    <!-- Отзывы с микроразметкой -->
-    <section class="bg-[#232338] rounded-xl p-8 mb-8" itemscope itemtype="https://schema.org/Review">
-        <div class="flex justify-between items-center mb-6">
-            <h2 class="text-3xl font-bold text-white">Реальные отзывы игроков</h2>
-            <div class="flex items-center" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                <meta itemprop="ratingValue" content="4.9">
+  <!-- Отзывы с микроразметкой -->
+<section class="bg-[#232338] rounded-xl p-8 mb-8" itemscope itemtype="https://schema.org/Product">
+    <meta itemprop="name" content="VAVADA Casino">
+    <meta itemprop="description" content="Онлайн казино с лицензионными играми и быстрыми выплатами">
+    <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+        <meta itemprop="ratingValue" content="4.9">
+        <meta itemprop="reviewCount" content="1573">
+        <meta itemprop="bestRating" content="5">
+    </div>
+
+    <div class="flex justify-between items-center mb-6">
+        <h2 class="text-3xl font-bold text-white" itemprop="name">Реальные отзывы игроков</h2>
+        <div class="flex items-center">
+            <div class="text-[#ff424d] text-2xl font-bold" itemprop="ratingValue">4.9</div>
+            <div class="flex text-[#ff424d] ml-2" aria-label="Рейтинг 4.9 из 5 звезд">
+                ★★★★★
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Отзыв 1 -->
+        <div class="bg-[#2a2a42] rounded-xl p-6" itemprop="review" itemscope itemtype="https://schema.org/Review">
+            <div class="flex items-center mb-4" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold" itemprop="name">
+                    М
+                </div>
+                <div class="ml-3">
+                    <div class="text-white font-medium" itemprop="name">Максим</div>
+                    <div class="text-gray-400 text-sm" itemprop="datePublished" content="2025-03-15">2 дня назад</div>
+                </div>
+            </div>
+            <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                <meta itemprop="ratingValue" content="5">
                 <meta itemprop="bestRating" content="5">
-                <div class="text-[#ff424d] text-2xl font-bold">4.9</div>
-                <div class="flex text-[#ff424d] ml-2">
+                <div class="text-[#ff424d] mb-2" aria-label="Оценка: 5 звезд">
                     ★★★★★
                 </div>
+            </div>
+            <p class="text-gray-300" itemprop="reviewBody">
+                Вывел 78 000₽ за 7 минут! Подтвердили документы быстро, деньги пришли моментально. Лучшее казино по выплатам!
+            </p>
+            <meta itemprop="datePublished" content="2025-03-15">
+            <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Thing">
+                <meta itemprop="name" content="VAVADA Casino">
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="bg-[#2a2a42] rounded-xl p-6" itemprop="review" itemscope itemtype="https://schema.org/Review">
-                <div class="flex items-center mb-4" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                    <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold" itemprop="name">
-                        М
-                    </div>
-                    <div class="ml-3">
-                        <div class="text-white font-medium">Максим</div>
-                        <div class="text-gray-400 text-sm" itemprop="datePublished">2 дня назад</div>
-                    </div>
-                </div>
-                <div class="text-[#ff424d] mb-2" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                    ★★★★★
-                    <meta itemprop="ratingValue" content="5">
-                </div>
-                <p class="text-gray-300" itemprop="reviewBody">
-                    Вывел 78 000₽ за 7 минут! Подтвердили документы быстро, деньги пришли моментально. Лучшее казино по выплатам!
-                </p>
-            </div>
-            <div class="bg-[#2a2a42] rounded-xl p-6" itemprop="review" itemscope itemtype="https://schema.org/Review">
+
+        <!-- Отзыв 2 -->
+        <div class="bg-[#2a2a42] rounded-xl p-6" itemprop="review" itemscope itemtype="https://schema.org/Review">
             <div class="flex items-center mb-4" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                    <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold" itemprop="name">
-                        F
-                    </div>
-                    <div class="ml-3">
-                        <div class="text-white font-medium">Жанна</div>
-                        <div class="text-gray-400 text-sm" itemprop="datePublished">1 дня назад</div>
-                    </div>
+                <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold" itemprop="name">
+                    Ж
                 </div>
-                <div class="text-[#ff424d] mb-2" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                    ★★★★★
-                    <meta itemprop="ratingValue" content="5">
+                <div class="ml-3">
+                    <div class="text-white font-medium" itemprop="name">Жанна</div>
+                    <div class="text-gray-400 text-sm" itemprop="datePublished" content="2025-03-16">1 день назад</div>
                 </div>
-                <p class="text-gray-300" itemprop="reviewBody">
-                    Играю только в прагмат и на дистанции пока в плюсах :))
-                </p>
             </div>
+            <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                <meta itemprop="ratingValue" content="5">
+                <meta itemprop="bestRating" content="5">
+                <div class="text-[#ff424d] mb-2" aria-label="Оценка: 5 звезд">
+                    ★★★★★
+                </div>
+            </div>
+            <p class="text-gray-300" itemprop="reviewBody">
+                Играю только в прагматик и на дистанции пока в плюсах :)
+            </p>
+            <meta itemprop="datePublished" content="2025-03-16">
+            <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Thing">
+                <meta itemprop="name" content="VAVADA Casino">
+            </div>
+        </div>
 
-             <div class="bg-[#2a2a42] rounded-xl p-6" itemprop="review" itemscope itemtype="https://schema.org/Review">
+        <!-- Отзыв 3 -->
+        <div class="bg-[#2a2a42] rounded-xl p-6" itemprop="review" itemscope itemtype="https://schema.org/Review">
             <div class="flex items-center mb-4" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                    <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold" itemprop="name">
-                        М
-                    </div>
-                    <div class="ml-3">
-                        <div class="text-white font-medium">Денис</div>
-                        <div class="text-gray-400 text-sm" itemprop="datePublished">1 дня назад</div>
-                    </div>
+                <div class="w-10 h-10 rounded-full bg-[#ff424d] flex items-center justify-center text-white font-bold" itemprop="name">
+                    Д
                 </div>
-                <div class="text-[#ff424d] mb-2" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                <div class="ml-3">
+                    <div class="text-white font-medium" itemprop="name">Денис</div>
+                    <div class="text-gray-400 text-sm" itemprop="datePublished" content="2025-03-16">1 день назад</div>
+                </div>
+            </div>
+            <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                <meta itemprop="ratingValue" content="5">
+                <meta itemprop="bestRating" content="5">
+                <div class="text-[#ff424d] mb-2" aria-label="Оценка: 5 звезд">
                     ★★★★★
-                    <meta itemprop="ratingValue" content="5">
-                </div>
-                <p class="text-gray-300" itemprop="reviewBody">
-                    Жаль не все провайдеры сейчас доступны из РФ для игры, но казик отличный, рекомендую. 
-                </p>
-            </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ с микроразметкой -->
-    <section class="bg-[#232338] rounded-xl p-8 mb-8" itemscope itemtype="https://schema.org/FAQPage">
-        <h2 class="text-3xl font-bold text-white mb-6">FAQ — ответы на вопросы</h2>
-        <div class="space-y-4">
-            <div class="bg-[#2a2a42] rounded-xl p-6" itemscope itemtype="https://schema.org/Question">
-                <h3 class="text-xl font-bold text-white mb-2" itemprop="name">
-                    Как зарегистрироваться в VAVADA?
-                </h3>
-                <div itemscope itemtype="https://schema.org/Answer">
-                    <p class="text-gray-400" itemprop="text">
-                        1. Нажмите "Регистрация"<br>
-                        2. Укажите email и пароль<br>
-                        3. Подтвердите почту<br>
-                        4. Пополните счет от 1000₽ и получите бонус 100%
-                    </p>
                 </div>
             </div>
-            <!-- Еще 2 вопроса -->
+            <p class="text-gray-300" itemprop="reviewBody">
+                Жаль не все провайдеры сейчас доступны из РФ для игры, но казино отличное, рекомендую.
+            </p>
+            <meta itemprop="datePublished" content="2025-03-16">
+            <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/Thing">
+                <meta itemprop="name" content="VAVADA Casino">
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Заключительный CTA -->
-    <section class="bg-gradient-to-r from-[#ff424d] to-[#ff2c39] rounded-xl p-8 text-center">
-        <h2 class="text-3xl font-bold text-white mb-4">
+<!-- FAQ с микроразметкой -->
+<section class="bg-[#232338] rounded-xl p-8 mb-8" itemscope itemtype="https://schema.org/FAQPage">
+    <h2 class="text-3xl font-bold text-white mb-6">FAQ — ответы на вопросы</h2>
+    <div class="space-y-4">
+        <!-- Вопрос 1 -->
+        <div class="bg-[#2a2a42] rounded-xl p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 class="text-xl font-bold text-white mb-2" itemprop="name">
+                Как зарегистрироваться в VAVADA?
+            </h3>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div class="text-gray-400" itemprop="text">
+                    <ol>
+                        <li>Нажмите "Регистрация"</li>
+                        <li>Укажите email и пароль</li>
+                        <li>Подтвердите почту</li>
+                        <li>Пополните счет от 1000₽ и получите бонус 100%</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Вопрос 2 -->
+        <div class="bg-[#2a2a42] rounded-xl p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 class="text-xl font-bold text-white mb-2" itemprop="name">
+                Какие документы нужны для верификации?
+            </h3>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div class="text-gray-400" itemprop="text">
+                    <ul>
+                        <li>Паспорт (главная страница + прописка)</li>
+                        <li>Селфи с паспортом</li>
+                        <li>Подтверждение платежного метода</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Вопрос 3 -->
+        <div class="bg-[#2a2a42] rounded-xl p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 class="text-xl font-bold text-white mb-2" itemprop="name">
+                Сколько времени занимает вывод средств?
+            </h3>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div class="text-gray-400" itemprop="text">
+                    <p>Среднее время обработки запроса на вывод:</p>
+                    <ul>
+                        <li>Электронные кошельки: 5-15 минут</li>
+                        <li>Банковские карты: до 24 часов</li>
+                        <li>Криптовалюты: 10-30 минут</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Заключительный CTA -->
+<section class="bg-gradient-to-r from-[#ff424d] to-[#ff2c39] rounded-xl p-8 text-center">
+    <div itemscope itemtype="https://schema.org/Offer">
+        <meta itemprop="priceCurrency" content="RUB">
+        <meta itemprop="price" content="100000">
+        <h2 class="text-3xl font-bold text-white mb-4" itemprop="name">
             Играйте в лицензионные слоты с выплатами до 98%
         </h2>
-        <p class="text-white text-xl mb-6">
+        <p class="text-white text-xl mb-6" itemprop="description">
             ★ ТОП-10 казино 2025 ★ Бонус до 100 000₽ ★ Вывод за 5 минут
         </p>
         <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/registration" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-[#ff424d] transition-colors">
+            <a href="/registration" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-[#ff424d] transition-colors" itemprop="url">
                 Играть на деньги
             </a>
             <a href="#demo" class="inline-flex items-center justify-center px-8 py-3 bg-white text-base font-medium rounded-md text-[#ff424d] hover:bg-gray-100 transition-colors">
                 Демо-игра бесплатно
             </a>
         </div>
-    </section>
+    </div>
+</section>
 </main>
   
           <!-- Footer -->  
